@@ -11,13 +11,15 @@
 # fackFuncitons
 
 各种函数或者特性的手动实现；不限于ES6中高阶函数的手动实现，以及Promise等特性。
-
-
 ### functions文件夹
 
 手动实现各种函数，包括不限于ES6等函数的方法
 
+#### 内容对应表
 
+| 方法名称 | 位置 | 作用|
+| --- | -- | -- |
+| forEach | functions/forEach.js | 遍历数组 |
 
 ### feature文件夹
 
