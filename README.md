@@ -18,7 +18,7 @@
 #### 内容对应表
 
 | 方法名称 | 位置 |
-| --- | -- | -- |
+| --- | -- |
 | forEach | functions/forEach.js  |
 | every | functions/every.js  |
 | some | functions/some.js  |
