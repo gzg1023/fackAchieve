@@ -17,9 +17,13 @@
 
 #### 内容对应表
 
-| 方法名称 | 位置 | 作用|
+| 方法名称 | 位置 |
 | --- | -- | -- |
-| forEach | functions/forEach.js | 遍历数组 |
+| forEach | functions/forEach.js  |
+| every | functions/every.js  |
+| some | functions/some.js  |
+| filter | functions/filter.js  |
+| find | functions/find.js  |
 
 ### feature文件夹
 
