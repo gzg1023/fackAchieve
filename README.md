@@ -1,9 +1,9 @@
 
 <p align="center">
-  <a href="https://img.shields.io/badge/vue-npm-brightgreen.svg">
+  <a href="https://github.com/gzg1023/fackAchieve">
     <img src="https://img.shields.io/badge/手写-ES6-pink.svg" alt="vue">
   </a>
-  <a href="https://github.com/ElemeFE/element">
+  <a href="https://github.com/gzg1023/fackAchieve">
     <img src="https://img.shields.io/badge/手写-Promise-blue.svg" alt="element-ui">
   </a>
 </p>
@@ -18,7 +18,7 @@
 #### 内容对应表
 
 | 方法名称 | 位置 |
-| --- | -- | -- |
+| --- | -- |
 | forEach | functions/forEach.js  |
 | every | functions/every.js  |
 | some | functions/some.js  |
