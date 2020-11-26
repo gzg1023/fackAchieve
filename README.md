@@ -23,7 +23,7 @@ Handwritten es6 function, promise feature, function implementation of lodash lib
 
 #### 内容对应表
 
-| 方法名称        | 位置    |  作用   |
+| 方法名称(name)|位置(position) | 作用(effect)   |
 | :--------   | :----- | :----:  |
 | forEach | functions/forEach.js  | -- |
 | every | functions/every.js  | -- |
@@ -32,6 +32,7 @@ Handwritten es6 function, promise feature, function implementation of lodash lib
 | find | functions/find.js  | -- |
 | memoize | functions/memoize.js  | 缓存结果 |
 | curry | functions/curry.js  | 柯里化 |
+
 ### feature文件夹
 
 手动实现各种ES6新特性
