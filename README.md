@@ -13,7 +13,10 @@
 
 # fackAchieve
 
-各种函数或者特性的手动实现；不限于ES6中高阶函数的手动实现，以及Promise等特性。
+手写es6函数，promise特性，lodash库的函数实现
+
+Handwritten es6 function, promise feature, function implementation of lodash library
+
 ### functions文件夹
 
 手动实现各种函数，包括不限于ES6等函数的方法
