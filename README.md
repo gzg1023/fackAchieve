@@ -8,7 +8,7 @@
   </a>
 </p>
 
-# fackFuncitons
+# fackAchieve
 
 各种函数或者特性的手动实现；不限于ES6中高阶函数的手动实现，以及Promise等特性。
 ### functions文件夹
@@ -17,14 +17,15 @@
 
 #### 内容对应表
 
-| 方法名称 | 位置 |
-| --- | -- |
-| forEach | functions/forEach.js  |
-| every | functions/every.js  |
-| some | functions/some.js  |
-| filter | functions/filter.js  |
-| find | functions/find.js  |
-
+| 方法名称        | 位置    |  作用   |
+| :--------   | :----- | :----:  |
+| forEach | functions/forEach.js  | -- |
+| every | functions/every.js  | -- |
+| some | functions/some.js  | -- |
+| filter | functions/filter.js  | -- |
+| find | functions/find.js  | -- |
+| memoize | functions/memoize.js  | 缓存结果 |
+| curry | functions/curry.js  | 柯里化 |
 ### feature文件夹
 
 手动实现各种ES6新特性
