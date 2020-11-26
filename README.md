@@ -6,6 +6,9 @@
   <a href="https://github.com/gzg1023/fackAchieve">
     <img src="https://img.shields.io/badge/手写-Promise-blue.svg" alt="element-ui">
   </a>
+  <a href="https://github.com/gzg1023/fackAchieve">
+    <img src="https://img.shields.io/badge/模拟-lodash-green.svg" alt="element-ui">
+  </a>
 </p>
 
 # fackAchieve
