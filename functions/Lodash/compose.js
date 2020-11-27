@@ -13,7 +13,7 @@ function fackComposeRight (...callback) {
         },value)
     }
 }
-  // 从到有运行
+  // 从左到右运行
 function fackComposeLeft (...callback) {
     return function (value){
         return callback.reduce((item,fn)=>{
