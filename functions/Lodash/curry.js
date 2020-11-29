@@ -7,7 +7,7 @@ function getSum(a, b, c) {
 function fackCurry3(callback) {
   return curryHandle = (...args) => {
     // 如果参数相同，直接返回结果
-    if (args.length === callback.length) {
+    if (args.length >= callback.length) {
       return callback(...args)
     } else {
       // 参数不足，则返回函数
@@ -20,7 +20,7 @@ function fackCurry3(callback) {
 function fackCurry2(callback) {
   return function curryHandle() {
     var args = Array.prototype.slice.call(arguments)
-    if (args.length === callback.length) {
+    if (args.length >= callback.length) {
       return callback.apply(null, args)
     } else {
       return function () {
