@@ -44,3 +44,8 @@ Handwritten es6 function, promise feature, function implementation of lodash lib
 ## feature文件夹
 
 手动实现各种ES6新特性
+
+| 方法名称(name)|位置(position) | 描述(desc)   |
+| :--------   | :----- | :----:  |
+| MyPromise | functions/feature/attribute/MyPromise.js  | 自己的简陋版Promise |
+| A+Promise | functions/feature/attribute/A+Promise.js  | 符合A+规范的Promise实现 |
