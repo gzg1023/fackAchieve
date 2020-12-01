@@ -6,11 +6,11 @@ function getSum(a, b, c) {
 // es6
 function fackCurry3(callback) {
   return curryHandle = (...args) => {
-    // 如果参数相同，直接返回结果
-    if (args.length === callback.length) {
+    // 如果参数相同或超出，直接返回结果
+    if (args.length >= callback.length) {
       return callback(...args)
     } else {
-      // 参数不足，则返回函数
+      // 参数不足，则返回函数，继续调用
       return (...args2) => curryHandle(...args.concat((args2)))
     }
   }
@@ -20,7 +20,7 @@ function fackCurry3(callback) {
 function fackCurry2(callback) {
   return function curryHandle() {
     var args = Array.prototype.slice.call(arguments)
-    if (args.length === callback.length) {
+    if (args.length >= callback.length) {
       return callback.apply(null, args)
     } else {
       return function () {
