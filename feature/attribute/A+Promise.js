@@ -153,6 +153,7 @@ Promise.resolvePromise = function (newPromise, x, resolve, reject) {
     }
 }
 
+// 通过测试必须定义的
 Promise.defer = Promise.deferred = function () {
     let dfd = {}
     dfd.promise = new Promise((resolve, reject) => {

@@ -49,3 +49,5 @@ Handwritten es6 function, promise feature, function implementation of lodash lib
 | :--------   | :----- | :----:  |
 | MyPromise | functions/feature/attribute/MyPromise.js  | 自己的简陋版Promise |
 | A+Promise | functions/feature/attribute/A+Promise.js  | 符合A+规范的Promise实现 |
+| call | functions/feature/method/call.js  | 手写call函数|
+| apply | functions/feature/method/apply.js  | 手写apply函数|
