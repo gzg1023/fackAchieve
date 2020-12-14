@@ -1,3 +1,4 @@
+// 思路同call，参数不一样
 const arr = [1, 2, 3, 4, 5]
 function fackApply(thisArg, arg) {
     if (typeof this !== 'function') {

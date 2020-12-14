@@ -1,3 +1,9 @@
+/** 
+ * 编写思路
+ * 1.返回一个原返回一个函数
+ * 2.传递参数并绑定传入的this
+ * 3.可以通过new调用
+*/
 const user = {
     x: 42,
     getX: function () {
@@ -10,8 +16,7 @@ function fackBind(thisArg, ...args) {
         throw new TypeError('当前调用bind方法的不是函数！')
     }
     const callback = thisArg || (typeof window !== 'undefined' ? window : globalThis)
-    const result = () => this.apply(callback, args)
-    return result
+    return () => this.apply(callback, args)
 }
 
 // MDN版本
@@ -44,10 +49,12 @@ Function.prototype.fackBind = fackBind
 Function.prototype.fackBind2 = fackBind2
 
 const generator = user.getX;
-console.log(generator());
 
-const b = generator.bind(user);
+const a = generator.bind(user);
+console.log(a());
+
+const b = generator.fackBind(user);
 console.log(b());
 
-const c = generator.fackBind(user);
+const c = generator.fackBind2(user);
 console.log(c());
