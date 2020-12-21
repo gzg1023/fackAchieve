@@ -34,13 +34,14 @@ Handwritten es6 function, promise feature, function implementation of lodash lib
 | find | functions/Array/find.js  | -- |
 | reduce | functions/Array/reduce.js  | -- |
 | map | functions/Array/map.js  | -- |
-#### Lodash
+#### utils
 
 | 方法名称(name)|位置(position) | 作用(effect)   |
 | :--------   | :----- | :----:  |
-| memoize | functions/Lodash/memoize.js  | 缓存结果 |
-| curry | functions/Lodash/curry.js  | 柯里化 |
-| compose | functions/Lodash/compose.js  | 合并函数 |
+| memoize | functions/utils/memoize.js  | 缓存结果 |
+| curry | functions/utils/curry.js  | 柯里化 |
+| compose | functions/utils/compose.js  | 合并函数 |
+| getType | functions/utils/getType.js  | 判断类型  |
 ## feature文件夹
 
 手动实现各种ES6新特性
