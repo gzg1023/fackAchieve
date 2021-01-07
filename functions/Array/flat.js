@@ -31,9 +31,9 @@ function fackFlat(depth = 1) {
 }
 
 // MDN reduce版本
-function flatDeep(arr, d = 1) {
+function fackFlat2(arr, d = 1) {
     return d > 0 ? arr.reduce((acc, val) =>
-        acc.concat(Array.isArray(val) ? flatDeep(val, d - 1) : val), []) : arr.slice();
+        acc.concat(Array.isArray(val) ? fackFlat2(val, d - 1) : val), []) : arr.slice();
 };
 
 
@@ -43,4 +43,4 @@ Array.prototype.fackFlat = fackFlat
 
 console.log(arr.flat(Infinity))
 console.log(arr.fackFlat(Infinity))
-console.log(flatDeep(arr, Infinity));
+console.log(fackFlat(arr, Infinity));

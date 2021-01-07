@@ -35,6 +35,8 @@ Handwritten es6 function, promise feature, function implementation of lodash lib
 | reduce | functions/Array/reduce.js  | -- |
 | map | functions/Array/map.js  | -- |
 | flat | functions/Array/flat.js  | -- |
+| includes | functions/Array/includes.js  | -- |
+
 #### utils
 
 | 方法名称(name)|位置(position) | 作用(effect)   |
