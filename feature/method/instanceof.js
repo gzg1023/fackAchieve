@@ -11,15 +11,20 @@ function Car(make, model, year) {
     this.model = model;
     this.year = year;
 }
+
 const auto = new Car('Honda', 'Accord', 1998);
 
 
 function fackInstanceof(detectObject, souceObject) {
     let leftObj = Object.getPrototypeOf(detectObject) // 相当于detectObject.__proto__
-    let rightObj = souceObject.prototype
+    let rightObj = souceObject.prototype // 获取源对象原型
+    // 循环获取detectObject对象的原型
     while (true) {
+        // 如果是null事件返回
         if (Object.is(leftObj, null)) return false
+        // 如果第一次相等直接返回
         if (Object.is(leftObj, rightObj)) return true
+        // 不想等，继续向上找
         leftObj = Object.getPrototypeOf(leftObj)
     }
 }

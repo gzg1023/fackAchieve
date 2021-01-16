@@ -12,9 +12,11 @@ function deepClone(source) {
     }
     let target = Array.isArray(source) ? [] : {}; // 判断对象是不是数组
     for (let key in source) {
+        // 如果是对象就递归遍历每个key或者
         if (typeof source[key] === 'object' && source[key] != null) {
             target[key] = deepClone(source[key]);
         } else {
+            // 如果是普通对象直接赋值
             target[key] = source[key];
         }
     }
