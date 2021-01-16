@@ -45,6 +45,8 @@ Handwritten es6 function, promise feature, function implementation of lodash lib
 | curry | functions/utils/curry.js  | 柯里化 |
 | compose | functions/utils/compose.js  | 合并函数 |
 | getType | functions/utils/getType.js  | 判断类型  |
+| isEqual | functions/utils/isEqual.js  | 判断值相等  |
+
 ## feature文件夹
 
 手动实现各种ES6新特性
@@ -56,3 +58,4 @@ Handwritten es6 function, promise feature, function implementation of lodash lib
 | call | functions/feature/method/call.js  | 手写call函数|
 | apply | functions/feature/method/apply.js  | 手写apply函数|
 | new | functions/feature/method/new.js  | new构造方法|
+| instanceof | functions/feature/method/instanceof.js  | instanceof方法 |
