@@ -46,6 +46,7 @@ Handwritten es6 function, promise feature, function implementation of lodash lib
 | compose | functions/utils/compose.js  | 合并函数 |
 | getType | functions/utils/getType.js  | 判断类型  |
 | isEqual | functions/utils/isEqual.js  | 判断值相等  |
+| deepClone | functions/utils/deepClone.js  | 深拷贝  |
 
 ## feature文件夹
 
