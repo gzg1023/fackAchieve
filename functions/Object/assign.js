@@ -6,11 +6,6 @@
  * 3. 返回目标对象。
 */
 
-
-const target = { a: 1, b: 2 };
-const source = { b: 4, c: 5 };
-const source2 = { d: 6, e: 7 };
-
 function fackAssign(target, ...source) {
     for (let index = 0; index < source.length; index++) {
         const element = source[index];
@@ -24,6 +19,10 @@ function fackAssign(target, ...source) {
 }
 
 Object.prototype.fackAssign = fackAssign
+
+const target = { a: 1, b: 2 };
+const source = { b: 4, c: 5 };
+const source2 = { d: 6, e: 7 };
 
 
 const returnedTarget = Object.assign(target, source, source2);

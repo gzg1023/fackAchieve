@@ -42,7 +42,8 @@ Handwritten es6 function, promise feature, function implementation of lodash lib
 | 方法名称(name)|位置(position) | 作用(effect)   |
 | :--------   | :----- | :----:  |
 | assign | functions/Object/assign.js  | -- |
-
+| reverseAssign | functions/Object/reverseAssign.js  | 逆向assign |
+| orderAssign | functions/Object/orderAssign.js  | 逆向reverseAssign |
 #### utils
 
 | 方法名称(name)|位置(position) | 作用(effect)   |
