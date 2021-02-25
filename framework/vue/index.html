@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini vue</title>
+</head>
+<body>
+    <div id="app">
+        <h1>差值表达式</h1>
+        <h3>{{ msg }}</h3>
+        <div class="box" data-img="http://google.com">
+        <h3>{{ count }}</h3>
+        <h3>{{ person }}</h3>
+        </div>
+        <h1>v-text</h1>
+        <div class="msg" v-text="msg"></div>
+        <h1>v-model</h1>
+        <input type="text" v-model="msg"></input>
+        <input type="text" v-model="count"></input>
+        <h1>v-if</h1>
+        <button v-show="showFlag">测试</button>
+        <h1>v-on</h1>
+        <button v-on:click="clickHandle">测试</button>
+    </div>
+    <script src="./dep.js"></script>
+    <script src="./watcher.js"></script>
+    <script src="./compiler.js"></script>
+    <script src="./observer.js"></script>
+    <script src="./vue.js"></script>
+    <script>
+        let vm = new Vue({
+            el:'#app',
+            data:{
+                msg:'hello mini vue',
+                count: 200,
+                showFlag:true,
+                person:{
+                    name:{
+                        alex:{
+                            age:19
+                        }
+                    }
+                },
+                clickHandle(){
+                    this.showFlag = !this.showFlag
+                    console.log('123',this)
+                }
+            }
+        })
+    </script>
+</body>
+</html>
