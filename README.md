@@ -13,9 +13,8 @@
 
 # fackAchieve
 
-手写es6函数，promise特性，lodash库的函数实现
+手写es6函数，Promise特性，lodash库的函数实现,模拟vue,React等前端框架的实现和原理的理解。
 
-Handwritten es6 function, promise feature, function implementation of lodash library
 
 ## functions文件夹
 
@@ -67,3 +66,12 @@ Handwritten es6 function, promise feature, function implementation of lodash lib
 | apply | functions/feature/method/apply.js  | 手写apply函数|
 | new | functions/feature/method/new.js  | new构造方法|
 | instanceof | functions/feature/method/instanceof.js  | instanceof方法 |
+
+## framework文件夹
+
+模拟vue,React等前端框架，了解原理
+
+| 方法名称(name)|位置(position) | 描述(desc)   |
+| :--------   | :----- | :----:  |
+| vue | framework/vue | mini vue |
+| react | framework/react  | mini react |
