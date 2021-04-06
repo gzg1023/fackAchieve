@@ -53,7 +53,7 @@
 | getType | functions/utils/getType.js  | 判断类型  |
 | isEqual | functions/utils/isEqual.js  | 判断值相等  |
 | deepClone | functions/utils/deepClone.js  | 深拷贝  |
-
+| getUrlData | functions/utils/getUrlData.js  | 获取url参数  |
 ## feature文件夹
 
 手动实现各种ES6新特性
