@@ -54,6 +54,8 @@
 | isEqual | functions/utils/isEqual.js  | 判断值相等  |
 | deepClone | functions/utils/deepClone.js  | 深拷贝  |
 | getUrlData | functions/utils/getUrlData.js  | 获取url参数  |
+| debounce | functions/utils/debounce.js  | 函数防抖  |
+| throttle | functions/utils/throttle.js  | 函数节流  |
 ## feature文件夹
 
 手动实现各种ES6新特性
