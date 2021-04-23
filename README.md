@@ -1,79 +1,92 @@
-
 <p align="center">
   <a href="https://github.com/gzg1023/fackAchieve">
-    <img src="https://img.shields.io/badge/手写-ES6-pink.svg" alt="vue">
+    <img src="https://img.shields.io/badge/手写-ES6-pink.svg">
   </a>
   <a href="https://github.com/gzg1023/fackAchieve">
-    <img src="https://img.shields.io/badge/手写-Promise-blue.svg" alt="element-ui">
+    <img src="https://img.shields.io/badge/手写-Promise-blue.svg" ">
   </a>
   <a href="https://github.com/gzg1023/fackAchieve">
-    <img src="https://img.shields.io/badge/模拟-lodash-green.svg" alt="element-ui">
+    <img src="https://img.shields.io/badge/模拟-lodash-green.svg" ">
+  </a>
+  <a href="https://github.com/gzg1023/fackAchieve">
+    <img src="https://img.shields.io/badge/js-数据结构-blue.svg" >
   </a>
 </p>
 
 # fackAchieve
 
-手写es6函数，Promise特性，lodash库的函数实现,模拟vue,React等前端框架的实现和原理的理解。
+手写 es6 函数，Promise 特性，lodash 库的函数实现,模拟 vue,React 等前端框架的实现和原理的理解。
 
+## functions 文件夹
 
-## functions文件夹
-
-手动实现各种函数，包括不限于ES6等函数的方法
+手动实现各种函数，包括不限于 ES6 等函数的方法
 
 ### 内容对应表
 
 #### Array
 
-| 方法名称(name)|位置(position) | 作用(effect)   |
-| :--------   | :----- | :----:  |
-| forEach | functions/Array/forEach.js  | -- |
-| every | functions/Array/every.js  | -- |
-| some | functions/Array/some.js  | -- |
-| filter | functions/Array/filter.js  | -- |
-| find | functions/Array/find.js  | -- |
-| reduce | functions/Array/reduce.js  | -- |
-| map | functions/Array/map.js  | -- |
-| flat | functions/Array/flat.js  | -- |
-| includes | functions/Array/includes.js  | -- |
+| 方法名称(name) | 位置(position)              | 作用(effect) |
+| :------------- | :-------------------------- | :----------: |
+| forEach        | functions/Array/forEach.js  |      --      |
+| every          | functions/Array/every.js    |      --      |
+| some           | functions/Array/some.js     |      --      |
+| filter         | functions/Array/filter.js   |      --      |
+| find           | functions/Array/find.js     |      --      |
+| reduce         | functions/Array/reduce.js   |      --      |
+| map            | functions/Array/map.js      |      --      |
+| flat           | functions/Array/flat.js     |      --      |
+| includes       | functions/Array/includes.js |      --      |
 
 #### Object
 
-| 方法名称(name)|位置(position) | 作用(effect)   |
-| :--------   | :----- | :----:  |
-| assign | functions/Object/assign.js  | -- |
-| reverseAssign | functions/Object/reverseAssign.js  | 逆向assign |
-| orderAssign | functions/Object/orderAssign.js  | 逆向reverseAssign |
+| 方法名称(name) | 位置(position)                    |    作用(effect)    |
+| :------------- | :-------------------------------- | :----------------: |
+| assign         | functions/Object/assign.js        |         --         |
+| reverseAssign  | functions/Object/reverseAssign.js |    逆向 assign     |
+| orderAssign    | functions/Object/orderAssign.js   | 逆向 reverseAssign |
+
 #### utils
 
-| 方法名称(name)|位置(position) | 作用(effect)   |
-| :--------   | :----- | :----:  |
-| memoize | functions/utils/memoize.js  | 缓存结果 |
-| curry | functions/utils/curry.js  | 柯里化 |
-| compose | functions/utils/compose.js  | 合并函数 |
-| getType | functions/utils/getType.js  | 判断类型  |
-| isEqual | functions/utils/isEqual.js  | 判断值相等  |
-| deepClone | functions/utils/deepClone.js  | 深拷贝  |
-| getUrlData | functions/utils/getUrlData.js  | 获取url参数  |
-| debounce | functions/utils/debounce.js  | 函数防抖  |
-| throttle | functions/utils/throttle.js  | 函数节流  |
-## feature文件夹
+| 方法名称(name) | 位置(position)                | 作用(effect)  |
+| :------------- | :---------------------------- | :-----------: |
+| memoize        | functions/utils/memoize.js    |   缓存结果    |
+| curry          | functions/utils/curry.js      |    柯里化     |
+| compose        | functions/utils/compose.js    |   合并函数    |
+| getType        | functions/utils/getType.js    |   判断类型    |
+| isEqual        | functions/utils/isEqual.js    |  判断值相等   |
+| deepClone      | functions/utils/deepClone.js  |    深拷贝     |
+| getUrlData     | functions/utils/getUrlData.js | 获取 url 参数 |
+| debounce       | functions/utils/debounce.js   |   函数防抖    |
+| throttle       | functions/utils/throttle.js   |   函数节流    |
 
-手动实现各种ES6新特性
+## feature 文件夹
 
-| 方法名称(name)|位置(position) | 描述(desc)   |
-| :--------   | :----- | :----:  |
-| MyPromise | functions/feature/attribute/MyPromise.js  | 自己的简陋版Promise |
-| A+Promise | functions/feature/attribute/A+Promise.js  | 符合A+规范的Promise实现 |
-| call | functions/feature/method/call.js  | 手写call函数|
-| apply | functions/feature/method/apply.js  | 手写apply函数|
-| new | functions/feature/method/new.js  | new构造方法|
-| instanceof | functions/feature/method/instanceof.js  | instanceof方法 |
+手动实现各种 ES6 新特性
 
-## framework文件夹
+| 方法名称(name) | 位置(position)                           |         描述(desc)         |
+| :------------- | :--------------------------------------- | :------------------------: |
+| MyPromise      | functions/feature/attribute/MyPromise.js |    自己的简陋版 Promise    |
+| A+Promise      | functions/feature/attribute/A+Promise.js | 符合 A+规范的 Promise 实现 |
+| call           | functions/feature/method/call.js         |       手写 call 函数       |
+| apply          | functions/feature/method/apply.js        |      手写 apply 函数       |
+| new            | functions/feature/method/new.js          |        new 构造方法        |
+| instanceof     | functions/feature/method/instanceof.js   |      instanceof 方法       |
 
-模拟vue,React等前端框架，了解原理
+## framework 文件夹
 
-| 方法名称(name)|位置(position) | 描述(desc)   |
-| :--------   | :----- | :----:  |
-| vue | framework/vue | mini vue |
-| react | framework/react  | mini react |
+模拟 vue,React 等前端框架，了解原理
+
+| 方法名称(name) | 位置(position)  | 描述(desc) |
+| :------------- | :-------------- | :--------: |
+| vue            | framework/vue   |  mini vue  |
+| react          | framework/react | mini react |
+
+
+## dataStructure 文件夹
+
+手动实现各种数据结构
+
+| 结构名称(name) | 位置(position)                           |         描述(desc)         |
+| :------------- | :--------------------------------------- | :------------------------: |
+| Stack      | functions/dataStructure/Stack/index.js |    栈结构    |
+| Queue      | functions/dataStructure/Queue/index.js |    队列结构    |
