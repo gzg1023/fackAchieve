@@ -29,7 +29,7 @@
 | :------------- | :-------------------------- | :----------: |
 | forEach        | [functions/Array/forEach.js](functions/Array/forEach.js)  |      --      |
 | every          | [functions/Array/every.js](functions/Array/every.js)    |      --      |
-| some           | [functions/Array/some.js]functions/Array/some.js     |      --      |
+| some           | [functions/Array/some.js](functions/Array/some.js)    |      --      |
 | filter         | [functions/Array/filter.js](functions/Array/filter.js)  |      --      |
 | find           | [functions/Array/find.js](functions/Array/find.js)     |      --      |
 | reduce         | [functions/Array/reduce.js](functions/Array/reduce.js)   |      --      |
