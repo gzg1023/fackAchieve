@@ -65,12 +65,12 @@
 
 | 方法名称(name) | 位置(position)                           |         描述(desc)         |
 | :------------- | :--------------------------------------- | :------------------------: |
-| MyPromise      | [functions/feature/attribute/MyPromise.js](functions/feature/attribute/MyPromise.js) |    自己的简陋版 Promise    |
-| A+Promise      | [functions/feature/attribute/A+Promise.js](functions/feature/attribute/A+Promise.js) | 符合 A+规范的 Promise 实现 |
-| call           | [functions/feature/method/call.js](functions/feature/method/call.js)        |       手写 call 函数       |
-| apply          | [functions/feature/method/apply.js](functions/feature/method/apply.js)        |      手写 apply 函数       |
-| new            | [functions/feature/method/new.js](functions/feature/method/new.js)          |        new 构造方法        |
-| instanceof     | [functions/feature/method/instanceof.js](functions/feature/method/instanceof.js)   |      instanceof 方法       |
+| MyPromise      | [feature/attribute/MyPromise.js](feature/attribute/MyPromise.js) |    自己的简陋版 Promise    |
+| A+Promise      | [feature/attribute/A+Promise.js](feature/attribute/A+Promise.js) | 符合 A+规范的 Promise 实现 |
+| call           | [feature/method/call.js](feature/method/call.js)        |       手写 call 函数       |
+| apply          | [feature/method/apply.js](feature/method/apply.js)        |      手写 apply 函数       |
+| new            | [feature/method/new.js](feature/method/new.js)          |        new 构造方法        |
+| instanceof     | [feature/method/instanceof.js](feature/method/instanceof.js)   |      instanceof 方法       |
 
 ## framework 文件夹
 
@@ -78,7 +78,7 @@
 
 | 方法名称(name) | 位置(position)  | 描述(desc) |
 | :------------- | :-------------- | :--------: |
-| vue            | [framework/vue](framework/vue)   |  mini vue  |
+| vue            | [framework/vue](framework/vue/vue.js)   |  mini vue  |
 | react          | [framework/react](framework/react) | mini react |
 
 
@@ -88,5 +88,5 @@
 
 | 结构名称(name) | 位置(position)                           |         描述(desc)         |
 | :------------- | :--------------------------------------- | :------------------------: |
-| Stack      | [functions/dataStructure/Stack/index.js](functions/dataStructure/Stack/index.js) |    栈结构    |
-| Queue      | [functions/dataStructure/Queue/index.js](functions/dataStructure/Queue/index.js) |    队列结构    |
+| Stack      | [dataStructure/Stack/index.js](dataStructure/Stack/index.js) |    栈结构    |
+| Queue      | [dataStructure/Queue/index.js](dataStructure/Queue/index.js) |    队列结构    |
