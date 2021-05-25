@@ -30,7 +30,7 @@ const fackNew = function (thisArg, ...args) {
 const _new = function (thisArg, ...args) {
     const temoObj = Object.create(thisArg.prototype)
     thisArg.apply(temoObj, args)
-    return thisArg === 'object' ? this : temoObj
+    return typeof thisArg === 'object' ? this : temoObj
 }
 
 
