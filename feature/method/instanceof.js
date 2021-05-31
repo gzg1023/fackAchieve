@@ -20,11 +20,11 @@ function fackInstanceof(detectObject, souceObject) {
     let rightObj = souceObject.prototype // 获取源对象原型
     // 循环获取detectObject对象的原型
     while (true) {
-        // 如果是null事件返回
+        // 如果是null直接返回（第一次或者原型链顶）
         if (Object.is(leftObj, null)) return false
         // 如果第一次相等直接返回
         if (Object.is(leftObj, rightObj)) return true
-        // 不想等，继续向上找
+        // 不相等，继续向上找
         leftObj = Object.getPrototypeOf(leftObj)
     }
 }
