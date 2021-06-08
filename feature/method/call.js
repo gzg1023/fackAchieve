@@ -5,19 +5,19 @@
  * 3.删除零时函数并返回
 */
 
-const fackCall = function (thisArg, ...args) {
+const fackCall = function (context, ...args) {
   if (typeof this !== 'function') {
     throw new TypeError('当前调用call方法的不是函数！')
   }
   // 定义一个私有标识符
   const flag = Symbol('function')
   // 确定返回函数的作用域， 默认是window,区分node和浏览器环境
-  const callback = thisArg || (typeof window !== 'undefined' ? window : globalThis)
-  // 把要执行函数的函数体 复制到零时的函数中
+  const callback = context || (typeof window !== 'undefined' ? window : globalThis)
+  // 把要执行函数的函数体 复制到临时的函数中
   callback[flag] = this
   // 保存返回的结果
   const result = callback[flag](...args)
-  // 删除零时的零时函数
+  // 删除临时变量
   delete callback[flag]
   // 返回结果
   return result

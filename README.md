@@ -68,6 +68,7 @@
 | MyPromise      | [feature/attribute/MyPromise.js](feature/attribute/MyPromise.js) |    符合 A+规范的 Promise 实现     |
 | call           | [feature/method/call.js](feature/method/call.js)                 |       手写 call 函数       |
 | apply          | [feature/method/apply.js](feature/method/apply.js)               |      手写 apply 函数       |
+| bind          | [feature/method/bind.js](feature/method/bind.js)               |      手写 bind 函数       |
 | new            | [feature/method/new.js](feature/method/new.js)                   |        new 构造方法        |
 | instanceof     | [feature/method/instanceof.js](feature/method/instanceof.js)     |      instanceof 方法       |
 

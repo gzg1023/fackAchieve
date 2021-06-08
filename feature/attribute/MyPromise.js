@@ -155,7 +155,7 @@ class MyPromise {
     // 静态方法，返回错误的Promise
     static reject(resaon) {
         if (resaon instanceof MyPromise) {
-            return resaon
+            return this.reject('[object Promise]')
         } else {
             // 如果不是promise对象，则重新创建一个
             return new MyPromise((resolve, reject) => {
