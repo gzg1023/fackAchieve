@@ -78,7 +78,8 @@
 
 | 方法名称(name) | 位置(position)                        | 描述(desc) |
 | :------------- | :------------------------------------ | :--------: |
-| vue            | [framework/vue](framework/vue/vue.js) |  mini vue  |
+| vue            | [framework/vue/mini-vue](framework/vue/mini-vue/vue.js) |  mini vue  |
+| vue-router      | [framework/vue/mini-vue-router](framework/vue/mini-vue-router/index.js) |  mini vue-router  |
 | react          | [framework/react](framework/react)    | mini react |
 
 ## dataStructure 文件夹
