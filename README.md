@@ -65,10 +65,10 @@
 
 | 方法名称(name) | 位置(position)                                                   |         描述(desc)         |
 | :------------- | :--------------------------------------------------------------- | :------------------------: |
-| MyPromise      | [feature/attribute/MyPromise.js](feature/attribute/MyPromise.js) |    符合 A+规范的 Promise 实现     |
+| MyPromise      | [feature/attribute/MyPromise.js](feature/attribute/MyPromise.js) | 符合 A+规范的 Promise 实现 |
 | call           | [feature/method/call.js](feature/method/call.js)                 |       手写 call 函数       |
 | apply          | [feature/method/apply.js](feature/method/apply.js)               |      手写 apply 函数       |
-| bind          | [feature/method/bind.js](feature/method/bind.js)               |      手写 bind 函数       |
+| bind           | [feature/method/bind.js](feature/method/bind.js)                 |       手写 bind 函数       |
 | new            | [feature/method/new.js](feature/method/new.js)                   |        new 构造方法        |
 | instanceof     | [feature/method/instanceof.js](feature/method/instanceof.js)     |      instanceof 方法       |
 
@@ -76,11 +76,11 @@
 
 模拟 vue,React 等前端框架，了解原理
 
-| 方法名称(name) | 位置(position)                        | 描述(desc) |
-| :------------- | :------------------------------------ | :--------: |
-| vue            | [framework/vue/mini-vue](framework/vue/mini-vue/vue.js) |  mini vue  |
-| vue-router      | [framework/vue/mini-vue-router](framework/vue/mini-vue-router/index.js) |  mini vue-router  |
-| react          | [framework/react](framework/react)    | mini react |
+| 方法名称(name) | 位置(position)                                                          |   描述(desc)    |
+| :------------- | :---------------------------------------------------------------------- | :-------------: |
+| vue            | [framework/vue/mini-vue](framework/vue/mini-vue/vue.js)                 |    mini vue     |
+| vue-router     | [framework/vue/mini-vue-router](framework/vue/mini-vue-router/index.js) | mini vue-router |
+| react          | [framework/react](framework/react)                                      |   mini react    |
 
 ## dataStructure 文件夹
 
@@ -90,3 +90,12 @@
 | :------------- | :----------------------------------------------------------- | :--------: |
 | Stack          | [dataStructure/Stack/index.js](dataStructure/Stack/index.js) |   栈结构   |
 | Queue          | [dataStructure/Queue/index.js](dataStructure/Queue/index.js) |  队列结构  |
+
+## work 文件夹
+
+工作中，各种场景会碰到的常用方法或类实现
+
+| 名称(name) | 位置(position)                                     |    描述(desc)    |
+| :--------- | :------------------------------------------------- | :--------------: |
+| FMP        | [work/performance/FMP.js](work/performance/FMP.js) | 首次有效绘制时间 |
+| FCP        | [work/performance/FCP.js](work/performance/FCP.js) |     首屏时间     |
